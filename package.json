@@ -1,0 +1,69 @@
+{
+  "requires": true,
+  "lockfileVersion": 1,
+  "dependencies": {
+    "apollo-cache-control": {
+      "integrity": "sha512-DoMTr3uTC5Cx9ukSO63wlzHD15C37FwZuoOZEu+m/UTzVFKQ4PnlBKzwZ0H2+iIwcdSulV0xte6Z3wBe9lHAOA==",
+      "requires": {
+        "graphql-extensions": "0.0.5"
+      },
+      "resolved": "https://registry.npmjs.org/apollo-cache-control/-/apollo-cache-control-0.0.7.tgz",
+      "version": "0.0.7"
+    },
+    "apollo-server-core": {
+      "integrity": "sha1-82hVo+vcLXe4ucRUOAvx1wYQX/w=",
+      "requires": {
+        "apollo-cache-control": "0.0.7",
+        "apollo-tracing": "0.1.1",
+        "graphql-extensions": "0.0.5"
+      },
+      "resolved": "https://registry.npmjs.org/apollo-server-core/-/apollo-server-core-1.3.2.tgz",
+      "version": "1.3.2"
+    },
+    "apollo-server-express": "^1.3.2",
+    "apollo-server-module-graphiql": {
+      "integrity": "sha1-Cp5MSN7OOvkE/uMz+V97mBczXKc=",
+      "resolved": "https://registry.npmjs.org/apollo-server-module-graphiql/-/apollo-server-module-graphiql-1.3.2.tgz",
+      "version": "1.3.2"
+    },
+    "apollo-tracing": {
+      "integrity": "sha512-OrL0SYpmwNs6R339y7Is6PppOkyooMB1iLSN+HAp1FdBycQ88SqVV5Dqjxb4Du+TrMyyJLHfR5BAENZSFQyWGQ==",
+      "requires": {
+        "graphql-extensions": "0.0.5"
+      },
+      "resolved": "https://registry.npmjs.org/apollo-tracing/-/apollo-tracing-0.1.1.tgz",
+      "version": "0.1.1"
+    },
+    "body-parser": "^1.18.2",
+    "core-js": {
+      "integrity": "sha1-isw4NFgk8W2DZbfJtCWRaOjtYD4=",
+      "resolved": "https://registry.npmjs.org/core-js/-/core-js-2.5.3.tgz",
+      "version": "2.5.3"
+    },
+    "express": "^4.16.2",
+    "graphql": "^0.12.3",
+    "graphql-extensions": {
+      "integrity": "sha512-IbgYhKIyI60Nio/uJjkkiXaOZ2fI8ynAyzcA/okD0iuKzBdWX4Tn6tidMLgd16Bf2v3TtNnyXnN0F2BJDs6e4A==",
+      "requires": {
+        "core-js": "2.5.3",
+        "source-map-support": "0.5.0"
+      },
+      "resolved": "https://registry.npmjs.org/graphql-extensions/-/graphql-extensions-0.0.5.tgz",
+      "version": "0.0.5"
+    },
+    "graphql-tools": "^2.14.1",
+    "source-map": {
+      "integrity": "sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==",
+      "resolved": "https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz",
+      "version": "0.6.1"
+    },
+    "source-map-support": {
+      "integrity": "sha512-vUoN3I7fHQe0R/SJLKRdKYuEdRGogsviXFkHHo17AWaTGv17VLnxw+CFXvqy+y4ORZ3doWLQcxRYfwKrsd/H7Q==",
+      "requires": {
+        "source-map": "0.6.1"
+      },
+      "resolved": "https://registry.npmjs.org/source-map-support/-/source-map-support-0.5.0.tgz",
+      "version": "0.5.0"
+    }
+  }
+}
